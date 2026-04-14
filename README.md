@@ -39,11 +39,13 @@ A aplicação utiliza o teclado para todas as interações. O objeto atualmente 
 ## Instruções de Compilação e Execução
 
 ### Estrutura de Pastas Sugerida
-Para o correto funcionamento, certifique-se de que os arquivos do projeto estejam organizados em uma pasta de código-fonte (`src/`).
+Para o correto funcionamento, certifique-se de que os arquivos do projeto estejam organizados em uma pasta de código-fonte (`src/ExercicioOBJ`).
 
 ### Compilação (Via CMake)
-1. Crie uma pasta `build` na raiz do projeto.
-2. No terminal, acesse a pasta build e execute:
+1. No VScode Aperte: `Ctrl + Shft + P` > cmake: build
+2. Execute:
    ```bash
-   cmake ..
-   cmake --build .
+    cd build
+   .\ExercicioOBJ.exe
+
+##### Desenvolvido por: Arthur Palma e Vicenzo Valmorbida
